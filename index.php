@@ -51,7 +51,7 @@ global $reply;
 
 
  if ($_SESSION['mood'] == "Happy") {
-     $reply = "I am happy that selected 'happy'. Thank you for sharing.";
+     $reply = "I am happy that you selected 'happy'. Thank you for sharing.";
  }
     else if ($_SESSION['mood'] == "Sad") {
         $reply = "I am sad that you selected 'sad'. Hope you feel better soon. Thank you for sharing.";
@@ -66,7 +66,7 @@ global $reply;
         $reply = "Thank you for sharing your name.";
     }
 
-    var_dump($_SESSION);
+//    var_dump($_SESSION);
 
     $f3-> set('SESSION.reply', $reply);
 
