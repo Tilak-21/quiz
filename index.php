@@ -7,8 +7,8 @@ session_start();
 // Error Reporting
 ini_set('display_errors',1);
 error_reporting(E_ALL);
-global $name;
-global $mood;
+
+
 
 // Require the Autoload File
 require_once ('vendor/autoload.php');
@@ -26,8 +26,7 @@ $f3->route('GET /', function() {
 });
 
 $f3->route('GET|POST /survey', function($f3) {
-
-    $ListOfMoods = array('happy', 'sad', 'angry', 'excited');
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     //setting the survey answers to variables
      $name = $_POST["name"];
@@ -43,6 +42,10 @@ $f3->route('GET|POST /survey', function($f3) {
 
     $view = new Template();
     echo $view->render('views/survey.html');
+    }
+    else {
+        $f3 -> reroute('/');
+    }
 
 });
 

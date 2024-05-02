@@ -148,3 +148,67 @@
 [02-May-2024 18:16:02 UTC] [GreenRiverDev/328/quiz/index.php:33] 
 [02-May-2024 18:16:02 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
 [02-May-2024 18:16:02 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:17:42 UTC] Undefined array key "name"
+[02-May-2024 18:17:42 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:17:42 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:17:42 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:17:45 UTC] Undefined array key "name"
+[02-May-2024 18:17:45 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:17:45 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:17:45 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:17:54 UTC] Undefined array key "name"
+[02-May-2024 18:17:54 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:17:54 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:17:54 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:17:57 UTC] Undefined array key "name"
+[02-May-2024 18:17:57 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:17:57 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:17:57 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:21:02 UTC] Undefined array key "name"
+[02-May-2024 18:21:02 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:21:02 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:21:02 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:21:06 UTC] Undefined array key "name"
+[02-May-2024 18:21:06 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:21:06 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:21:06 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:21:17 UTC] Undefined array key "name"
+[02-May-2024 18:21:17 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:21:17 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:21:17 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:21:58 UTC] Undefined array key "name"
+[02-May-2024 18:21:58 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:21:58 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:21:58 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:22:03 UTC] Undefined array key "name"
+[02-May-2024 18:22:03 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:22:03 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:22:03 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:22:05 UTC] Undefined array key "name"
+[02-May-2024 18:22:05 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:22:05 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:22:05 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:22:08 UTC] Undefined array key "name"
+[02-May-2024 18:22:08 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:22:08 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:22:08 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:22:31 UTC] Undefined array key "name"
+[02-May-2024 18:22:31 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:22:31 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:22:31 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:23:42 UTC] Undefined array key "name"
+[02-May-2024 18:23:42 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:23:42 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:23:42 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:23:46 UTC] Undefined array key "name"
+[02-May-2024 18:23:46 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:23:46 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:23:46 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:23:48 UTC] Undefined array key "name"
+[02-May-2024 18:23:48 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:23:48 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:23:48 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:24:03 UTC] Undefined array key "name"
+[02-May-2024 18:24:03 UTC] [GreenRiverDev/328/quiz/index.php:33] 
+[02-May-2024 18:24:03 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
+[02-May-2024 18:24:03 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
