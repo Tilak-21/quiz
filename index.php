@@ -16,10 +16,18 @@ $f3 = Base::instance();
 
 //Define a default route
 $f3->route('GET /', function() {
-//    echo '<h1>Dinner is served!</h1>';
+
 
     $view = new Template();
-    echo $view->render('views/home.html');
+    echo $view->render('views/homepage.html');
+
+});
+
+$f3->route('GET /survey', function() {
+
+
+    $view = new Template();
+    echo $view->render('views/survey.html');
 
 });
 
