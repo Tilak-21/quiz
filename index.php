@@ -50,16 +50,16 @@ $f3->route('GET|POST /summary', function($f3) {
 global $reply;
 
 
- if ($_SESSION['mood'] = "happy") {
+ if ($_SESSION['mood'] == "Happy") {
      $reply = "I am happy that selected 'happy'. Thank you for sharing.";
  }
-    else if ($_SESSION['mood'] = "sad") {
-        $reply = "I am sad that selected 'sad'. Hope you feel better soon. Thank you for sharing.";
+    else if ($_SESSION['mood'] == "Sad") {
+        $reply = "I am sad that you selected 'sad'. Hope you feel better soon. Thank you for sharing.";
     }
-    else if ($_SESSION['mood'] = "angry") {
+    else if ($_SESSION['mood'] == "Angry") {
         $reply = "Forgiveness is the answer. Thank you for sharing.";
     }
-    else if ($_SESSION['mood'] = "excited") {
+    else if ($_SESSION['mood'] == "Excited") {
         $reply = "Do share what you are excited about. Thank you for using this form.";
     }
     else {
