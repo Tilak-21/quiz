@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+</head>
+<body>
+
+<h1>My Midterm Survey</h1>
+
+
+<form action="#" method="POST" class="form-horizontal">
+
+    <!-- get food -->
+    <div class="form-group">
+        <label for="name" class="col-sm-4 control-label">Full Name:</label>
+        <div class="col-sm-4"><input class="form-control" type="text"
+                                     name="name" id="name" ></div>
+<!--        <check if="{{ isset(@errors['food']) }}">-->
+<!--            <span class="err">{{ @errors['food'] }}</span>-->
+<!--        </check>-->
+<!--    </div>-->
+    <br>
+
+    <!-- get meal -->
+    <div class="form-group">
+        <label class="col-sm-4 control-label">Chose what kind of mood are you in: </label>
+        <div class="col-sm-4">
+            <label><input type="radio" name="mood" value="happy"> Happy </label><br>
+            <label><input type="radio" name="mood" value="sad"> Sad </label><br>
+            <label><input type="radio" name="mood" value="angry"> Angry </label><br>
+            <label><input type="radio" name="mood" value="excited"> Excited </label><br>
+        </div>
+
+    </div>
+    <br>
+
+    <!-- submit button -->
+    <div class="col-xs-3 ">
+        <button class="btn btn-primary" type="submit">Next</button>
+    </div>
+</form>
+
+</div>
+
+</body>
+</html>
