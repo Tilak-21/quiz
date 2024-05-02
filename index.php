@@ -26,25 +26,25 @@ $f3->route('GET /', function() {
 });
 
 $f3->route('GET|POST /survey', function($f3) {
+
+    global $mood;
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-    //setting the survey answers to variables
-     $name = $_POST["name"];
-     $mood = $_POST["mood"];
+        //setting the survey answers to variables
+        $name = $_POST["name"];
+        $mood = $_POST["mood"];
 
 
-    //assigning the vars to the session vars.
-    $f3-> set('SESSION.name', $name);
-    $f3-> set('SESSION.mood', $mood);
+        //assigning the vars to the session vars.
+        $f3->set('SESSION.name', $name);
+        $f3->set('SESSION.mood', $mood);
 
 
-    $f3->reroute('summary');
-
-    $view = new Template();
-    echo $view->render('views/survey.html');
+        $f3->reroute('summary');
     }
     else {
-        $f3 -> reroute('/');
+        $view = new Template();
+        echo $view->render('views/survey.html');
     }
 
 });
@@ -52,30 +52,25 @@ $f3->route('GET|POST /survey', function($f3) {
 $f3->route('GET|POST /summary', function($f3) {
 global $reply;
 
-
- if ($_SESSION['mood'] == "Happy") {
-     $reply = "I am happy that you selected 'happy'. Thank you for sharing.";
- }
-    else if ($_SESSION['mood'] == "Sad") {
-        $reply = "I am sad that you selected 'sad'. Hope you feel better soon. Thank you for sharing.";
-    }
-    else if ($_SESSION['mood'] == "Angry") {
-        $reply = "Forgiveness is the answer. Thank you for sharing.";
-    }
-    else if ($_SESSION['mood'] == "Excited") {
-        $reply = "Do share what you are excited about. Thank you for using this form.";
-    }
-    else {
-        $reply = "Thank you for sharing your name.";
-    }
+        if ($_SESSION['mood'] == "happy") {
+            $reply = "I am happy that you selected 'happy'. Thank you for sharing.";
+        } else if ($_SESSION['mood'] == "sad") {
+            $reply = "I am sad that you selected 'sad'. Hope you feel better soon. Thank you for sharing.";
+        } else if ($_SESSION['mood'] == "angry") {
+            $reply = "Forgiveness is the answer. Thank you for sharing.";
+        } else if ($_SESSION['mood'] == "excited") {
+            $reply = "Do share what you are excited about. Thank you for using this form.";
+        } else {
+            $reply = "Thank you for sharing your name.";
+        }
 
 //    var_dump($_SESSION);
 
-    $f3-> set('SESSION.reply', $reply);
+        $f3->set('SESSION.reply', $reply);
 
 
-    $view = new Template();
-    echo $view->render('views/summary.html');
+        $view = new Template();
+        echo $view->render('views/summary.html');
 
 });
 

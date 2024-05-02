@@ -212,3 +212,7 @@
 [02-May-2024 18:24:03 UTC] [GreenRiverDev/328/quiz/index.php:33] 
 [02-May-2024 18:24:03 UTC] [GreenRiverDev/328/quiz/index.php:33] Base->{closure}()
 [02-May-2024 18:24:03 UTC] [GreenRiverDev/328/quiz/index.php:81] Base->run()
+[02-May-2024 18:28:16 UTC] Undefined array key "name"
+[02-May-2024 18:28:16 UTC] [GreenRiverDev/328/quiz/index.php:32] 
+[02-May-2024 18:28:16 UTC] [GreenRiverDev/328/quiz/index.php:32] Base->{closure}()
+[02-May-2024 18:28:16 UTC] [GreenRiverDev/328/quiz/index.php:84] Base->run()
